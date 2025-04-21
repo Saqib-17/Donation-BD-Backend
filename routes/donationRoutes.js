@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const Donation = require('../models/donation');
+const Donation = require('../models/Donation');
 
 // POST: Create a new donation
 router.post('/donate', async (req, res) => {
